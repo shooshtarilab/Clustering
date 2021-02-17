@@ -1,0 +1,4 @@
+module load cellranger/2.1.1
+
+cellranger reanalyze --id=chung_breast_allCells \
+                     --matrix=filtered_feature_bc_matrix_chung_breast.h5
