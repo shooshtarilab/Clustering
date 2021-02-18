@@ -58,10 +58,13 @@ for (dataset in all.datasets) {
       category_F_measure[alg, j] <- median(as.numeric(F_measure[F_measure[,1] == j,2]))
       if (!is.na(category_F_measure[alg, j])) {
         res <- rbind(res, data.frame(method=alg, F1_score=category_F_measure[alg, j], category = j, dataset=dataset))
+      } else {
+        res <- rbind(res, data.frame(method=alg, F1_score=0, category = j, dataset=dataset))
       }
     }
   }
 }
+
 
 print(num)
 print(total)
