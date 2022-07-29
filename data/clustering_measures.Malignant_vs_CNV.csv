@@ -1,0 +1,113 @@
+"dataset","algorithm","AMI","ARI","FMeasure","homogeneity","majority","VI","silhouette"
+"Breast : malignant","AltAnalyze",0.01,0,0.29,0.01,0.3,3.42,0.07
+"Breast : malignant","Ascend",0.58,0.5,0.7,0.58,0.69,2.07,0.31
+"Breast : malignant","bigSCale",0.71,0.71,0.83,0.82,0.96,1.31,0.38
+"Breast : malignant","Cell Ranger",0.47,0.44,0.63,0.47,0.56,2.35,0.29
+"Breast : malignant","CIDR",0.73,0.7,0.82,0.76,0.89,1.36,0.4
+"Breast : malignant","Monocle",0.63,0.54,0.72,0.71,0.87,1.81,0.29
+"Breast : malignant","pcaReduce",0.5,0.29,0.51,0.87,1,2.62,0.16
+"Breast : malignant","PhenoGraph",0.3,0.31,0.54,0.3,0.4,3,0.19
+"Breast : malignant","RaceID",0.43,0.36,0.59,0.69,1,3.18,-0.2
+"Breast : malignant","RCA",0.35,0.2,0.45,0.42,0.58,3.55,-0.1
+"Breast : malignant","SC3",0.73,0.72,0.83,0.82,0.95,1.25,0.36
+"Breast : malignant","Scran",0.38,0.27,0.53,0.43,0.62,3.28,0.06
+"Breast : malignant","Seurat",0.73,0.69,0.82,0.76,0.89,1.35,0.4
+"Breast : malignant","SINCERA",0.72,0.71,0.84,0.84,0.95,1.28,0.34
+"Breast : malignant","TSCAN",0.58,0.51,0.72,0.67,0.77,2.09,0.21
+"Glioblastoma : malignant","AltAnalyze",0.11,0.05,0.36,0.15,0.8,4.43,-0.27
+"Glioblastoma : malignant","Ascend",0.05,0,0.37,0.05,0.4,3.24,0.18
+"Glioblastoma : malignant","bigSCale",0.21,0.13,0.4,0.31,0.55,4.04,0.15
+"Glioblastoma : malignant","Cell Ranger",0.15,0.09,0.36,0.18,0.44,4.1,0.29
+"Glioblastoma : malignant","CIDR",0.12,0.07,0.37,0.12,0.43,3.9,0.15
+"Glioblastoma : malignant","Monocle",0.19,0.1,0.33,0.34,0.59,4.6,0.16
+"Glioblastoma : malignant","pcaReduce",0.17,0.07,0.28,0.37,0.6,5.31,0.13
+"Glioblastoma : malignant","PhenoGraph",0.08,0.04,0.33,0.09,0.4,4.36,0.07
+"Glioblastoma : malignant","RaceID",0.12,0.07,0.35,0.19,1,4.73,-0.07
+"Glioblastoma : malignant","RCA",0.09,0.02,0.36,0.1,0.5,4.2,-0.19
+"Glioblastoma : malignant","SC3",0.2,0.12,0.41,0.34,0.56,4.46,0.06
+"Glioblastoma : malignant","Scran",0.1,0.06,0.34,0.15,0.42,4.69,0.08
+"Glioblastoma : malignant","Seurat",0.13,0.07,0.32,0.18,0.44,4.47,0.24
+"Glioblastoma : malignant","SINCERA",0.16,0.09,0.38,0.22,0.53,4.22,0.17
+"Glioblastoma : malignant","TSCAN",0.12,0.06,0.32,0.17,0.42,4.67,0.06
+"Melanoma : malignant","AltAnalyze",0.19,0.14,0.31,0.19,1,4.22,-0.43
+"Melanoma : malignant","Ascend",0.18,0.04,0.34,0.18,0.36,3.44,0.11
+"Melanoma : malignant","bigSCale",0.61,0.48,0.67,0.61,0.9,2.28,0.27
+"Melanoma : malignant","Cell Ranger",0.46,0.3,0.5,0.46,0.72,3.36,0.26
+"Melanoma : malignant","CIDR",0.41,0.26,0.51,0.41,0.56,3.08,0.25
+"Melanoma : malignant","Monocle",0.59,0.36,0.59,0.75,0.85,2.65,0.2
+"Melanoma : malignant","pcaReduce",0.44,0.21,0.46,0.62,0.74,4,0.08
+"Melanoma : malignant","PhenoGraph",0.29,0.16,0.35,0.31,0.48,4.93,-0.01
+"Melanoma : malignant","RaceID",0.18,0.08,0.28,0.18,0.48,5.05,-0.22
+"Melanoma : malignant","RCA",0.41,0.29,0.47,0.48,0.6,4.15,-0.09
+"Melanoma : malignant","SC3",0.61,0.42,0.65,0.8,0.87,2.4,0.14
+"Melanoma : malignant","Scran",0.15,0.13,0.34,0.15,0.4,3.89,0.01
+"Melanoma : malignant","Seurat",0.63,0.47,0.67,0.68,0.86,2.47,0.21
+"Melanoma : malignant","SINCERA",0.46,0.39,0.55,0.46,0.61,2.93,0.09
+"Melanoma : malignant","TSCAN",0.31,0.15,0.38,0.31,0.62,4.56,-0.04
+"Lung : malignant","AltAnalyze",0.15,0.05,0.31,0.24,1,4.92,-0.39
+"Lung : malignant","Ascend",0.02,0.02,0.35,0.02,0.34,3.51,0.41
+"Lung : malignant","bigSCale",0.47,0.6,0.68,0.47,0.81,2.29,-0.14
+"Lung : malignant","Cell Ranger",0.33,0.22,0.36,0.54,0.84,3.65,0.21
+"Lung : malignant","CIDR",0.46,0.62,0.72,0.46,0.8,1.68,0.14
+"Lung : malignant","Monocle",0.3,0.13,0.28,0.64,0.84,4.36,-0.01
+"Lung : malignant","pcaReduce",0.29,0.16,0.35,0.55,0.81,4.33,0.15
+"Lung : malignant","PhenoGraph",0.3,0.22,0.41,0.46,0.78,3.88,0.08
+"Lung : malignant","RCA",0.19,0.03,0.18,0.58,0.83,6.63,-0.52
+"Lung : malignant","SC3",0.36,0.27,0.45,0.57,0.81,3.43,0.04
+"Lung : malignant","Seurat",0.4,0.33,0.52,0.59,0.82,3.06,0.1
+"Lung : malignant","SINCERA",0.35,0.24,0.54,0.38,0.83,3.16,0.04
+"Lung : malignant","TSCAN",0.32,0.22,0.4,0.54,0.81,3.81,0.15
+"Colorectal : malignant","AltAnalyze",0.07,0.01,0.34,0.07,1,2.72,-0.34
+"Colorectal : malignant","Ascend",0.03,0.04,0.35,0.03,0.3,3,0.04
+"Colorectal : malignant","bigSCale",0.46,0.33,0.61,0.55,0.78,2.68,0.13
+"Colorectal : malignant","Cell Ranger",0.2,0.15,0.44,0.2,0.44,3.41,0.19
+"Colorectal : malignant","CIDR",0.41,0.27,0.56,0.41,0.56,2.88,0.04
+"Colorectal : malignant","Monocle",0.41,0.26,0.53,0.49,0.63,2.95,0.14
+"Colorectal : malignant","pcaReduce",0.37,0.19,0.46,0.63,1,3.5,-0.07
+"Colorectal : malignant","PhenoGraph",0.12,0.08,0.39,0.12,0.36,3.81,-0.01
+"Colorectal : malignant","RaceID",0.13,0.04,0.31,0.13,0.75,4.16,-0.23
+"Colorectal : malignant","RCA",0.15,0.04,0.3,0.19,0.47,4.53,-0.11
+"Colorectal : malignant","SC3",0.56,0.43,0.63,0.71,0.88,2.07,0.1
+"Colorectal : malignant","Scran",0.14,0.13,0.43,0.14,0.38,3.2,-0.09
+"Colorectal : malignant","Seurat",0.28,0.19,0.52,0.28,0.6,2.87,0.18
+"Colorectal : malignant","SINCERA",0.43,0.25,0.6,0.43,0.71,2.59,-0.01
+"Colorectal : malignant","TSCAN",0.08,0.07,0.37,0.08,0.35,3.79,-0.03
+"Pancreatic : malignant","AltAnalyze",0.2,0.03,0.17,0.23,1,6.96,-0.5
+"Pancreatic : malignant","Ascend",0.01,0.01,0.16,0.01,0.17,4.7,0.19
+"Pancreatic : malignant","bigSCale",0.56,0.37,0.57,0.56,0.76,2.84,0.08
+"Pancreatic : malignant","Cell Ranger",0.54,0.36,0.46,0.54,0.68,3.64,0.21
+"Pancreatic : malignant","Monocle",0.66,0.41,0.62,0.87,0.94,2.36,-0.01
+"Pancreatic : malignant","PhenoGraph",0.34,0.25,0.4,0.34,0.4,5.16,-0.02
+"Pancreatic : malignant","RCA",0.35,0.17,0.32,0.53,0.62,5.94,-0.35
+"Pancreatic : malignant","SC3",0.76,0.62,0.75,0.85,0.94,1.71,0
+"Pancreatic : malignant","Scran",0.12,0.04,0.22,0.12,0.24,5.98,-0.05
+"Pancreatic : malignant","Seurat",0.64,0.57,0.65,0.64,0.75,2.57,0.03
+"Pancreatic : malignant","SINCERA",0.71,0.6,0.68,0.71,0.78,2.17,0
+"Pancreatic : malignant","TSCAN",0.18,0.08,0.24,0.18,0.3,5.86,0.06
+"Metastatic melanoma : malignant","AltAnalyze",0.81,0.82,0.87,0.81,1,0.96,0.14
+"Metastatic melanoma : malignant","Ascend",0.17,0.09,0.39,0.17,0.6,2.32,0.28
+"Metastatic melanoma : malignant","bigSCale",0.79,0.8,0.87,0.84,0.91,1.03,0.41
+"Metastatic melanoma : malignant","Cell Ranger",0.65,0.7,0.77,0.65,0.77,1.44,0.31
+"Metastatic melanoma : malignant","CIDR",0.11,0.07,0.37,0.11,0.32,3.29,0.05
+"Metastatic melanoma : malignant","Monocle",0.68,0.57,0.73,0.78,0.91,1.58,0.26
+"Metastatic melanoma : malignant","pcaReduce",0.54,0.39,0.58,0.89,1,2.34,0.19
+"Metastatic melanoma : malignant","PhenoGraph",0.61,0.59,0.75,0.61,0.86,1.42,0.31
+"Metastatic melanoma : malignant","RaceID",0.55,0.55,0.66,0.66,1,2.39,-0.09
+"Metastatic melanoma : malignant","RCA",0.47,0.33,0.56,0.67,0.83,2.91,-0.03
+"Metastatic melanoma : malignant","SC3",0.79,0.8,0.87,0.84,0.88,1.02,0.39
+"Metastatic melanoma : malignant","Seurat",0.8,0.8,0.87,0.8,0.91,1.06,0.4
+"Metastatic melanoma : malignant","SINCERA",0.34,0.31,0.5,0.34,0.45,2.4,0.17
+"Metastatic melanoma : malignant","TSCAN",0.77,0.78,0.85,0.77,0.91,1.24,0.37
+"AML : malignant","AltAnalyze",0.1,0.01,0.15,0.29,1,7.69,-0.45
+"AML : malignant","Ascend",0.01,0,0.32,0.01,0.33,3.41,0.17
+"AML : malignant","bigSCale",0.06,0,0.3,0.06,0.46,4.09,0.03
+"AML : malignant","Cell Ranger",0.15,0.07,0.31,0.26,0.59,5.21,0.15
+"AML : malignant","CIDR",0.08,0.04,0.3,0.09,0.41,4.55,-0.04
+"AML : malignant","Monocle",0.16,0.05,0.22,0.36,0.59,5.97,0.02
+"AML : malignant","PhenoGraph",0.11,0.04,0.24,0.19,0.44,5.37,0
+"AML : malignant","RCA",0.09,0.02,0.17,0.21,0.53,7.22,-0.32
+"AML : malignant","SC3",0.21,0.13,0.41,0.28,0.54,4.21,0.09
+"AML : malignant","Scran",0.02,0,0.28,0.03,0.36,4.76,0.03
+"AML : malignant","Seurat",0.18,0.12,0.38,0.29,0.54,4.65,0.04
+"AML : malignant","SINCERA",0.17,0.09,0.34,0.28,0.8,4.86,-0.26
+"AML : malignant","TSCAN",0.04,0,0.21,0.06,0.35,5.53,0.04
